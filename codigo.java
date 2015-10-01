@@ -41,3 +41,26 @@ public class SyGNumerosPrimos
                     }
  
         if (contador == 1) p = true;
+            } 
+        } 
+     
+        return p;
+    }
+
+    public static int contarDigitos(int numeroEntero)
+    {
+            int divisionEntera = numeroEntero;
+ 
+            int contador=0;
+ 
+            while (divisionEntera != 0)
+        {
+            divisionEntera = divisionEntera / 10;
+            contador++;
+        }
+    return contador;
+    }
+ 
+}
+
+// Rubén García Serrano
